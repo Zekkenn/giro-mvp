@@ -1,0 +1,13 @@
+/* ui/theme.css — lightweight, clean look */
+:root { --radius: 16px; }
+.header {
+  display:flex; align-items:center; gap:12px;
+  padding: 14px 16px; margin-bottom: 8px;
+  border-radius: var(--radius);
+  background: linear-gradient(90deg, #f7f7fb, #eef5ff);
+  border: 1px solid #e6ebf5;
+}
+.header .logo { font-size: 20px; font-weight: 700; }
+.header .subtitle { color:#5f6b7a; font-size: 14px; }
+.gradio-container { max-width: 1200px !important; margin: 0 auto; }
+button, .btn { border-radius: 12px !important; }

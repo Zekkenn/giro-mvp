@@ -1,0 +1,24 @@
+[project]
+name = "giro-teacher"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.17.1",
+    "boto3>=1.42.0",
+    "deepagents>=0.2.5",
+    "fastapi>=0.121.1",
+    "gradio>=5.49.1",
+    "langchain>=1.0.5",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.2",
+    "openai>=2.7.1",
+    "openai-agents>=0.4.2",
+    "psycopg2-binary>=2.9.11",
+    "pydantic>=2.11.10",
+    "pydantic-settings>=2.11.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.1",
+    "reportlab>=4.4.5",
+]
